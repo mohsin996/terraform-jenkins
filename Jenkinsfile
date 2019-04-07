@@ -5,7 +5,7 @@ pipeline {
  stage(‘checkout’) {
  steps {
  git branch: ‘develop’, url: ‘https://github.com/mohsin996/terraform-jenkins.git’
- 
+  }
  }
  }
  stage(‘Set Terraform path’) {
